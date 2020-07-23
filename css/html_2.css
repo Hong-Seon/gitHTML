@@ -1,0 +1,14 @@
+
+.login {
+    background-color: greenyellow;
+}
+.select {
+    background-color: lightslategray;
+}
+.text {
+    background-color: lightskyblue;
+}
+.item-size {
+    width:600px;
+    height:  auto;
+}

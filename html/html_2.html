@@ -4,30 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../css/html_2.css">
 </head>
 <body>
-    <h1>회원가입</h1>
-
-    <form action="#" method="GET">
-        <label for="user_id">ID : </label>
-        <input id="user_id" type="text" placeholder="ID를 입력해주세요">
-        <label for="user_pw">PW</label>
-        <input id="user_pw" type="text" placeholder="PW를 입력해주세요">
-        
-        <br/>
-
-        <label for="select_id">Say Hi!</label>
-        <select id="select_id">
-            <option value="#">----select----</option>
-            <option value="hello">hello</option>
-            <option value="hi">hi</option>
-        </select>
-
-        <br/>
-            
     
-        <textarea name="text_area" id="text_area" cols="30" rows="10"></textarea>
+    <form class="form" action="action" method="post">
+        <h1>회원가입</h1>
+        <div class="login item-size">
+            <label for="user_id">ID : </label>
+            <input id="user_id" type="text" placeholder="ID를 입력해주세요">
+            <label for="user_pw">PW</label>
+            <input id="user_pw" type="text" placeholder="PW를 입력해주세요">
+
+        </div>        
+        
+
+        <div class="select item-size">
+            <label for="select_id">Say Hi!</label>
+            <select id="select_id">
+                <option value="#">----select----</option>
+                <option value="hello">hello</option>
+                <option value="hi">hi</option>
+            </select>
+        </div>
+        
+
+            
+        <div class="text item-size">
+            <textarea class="text" name="text_area" id="text_area" cols="30" rows="10" placeholder="자기소개"></textarea>
+        </div>
+        <button class="submit" type="submit">submit</button>
     </form>
-    <button type="submit">submit</button>
 </body>
 </html>
