@@ -1,0 +1,72 @@
+.frame {
+    font-family: 'Spoqa Han Sans'
+}
+.header{
+    display:flex;
+    justify-content: space-around;
+    width:1280px;
+    height: 34px;
+    margin: auto;
+    padding-bottom:150px;
+}
+.menu_items{
+    margin:12px;
+}
+
+
+.section {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+/* left content */
+.left{
+    width:550px;
+    height: 200px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left:30px;
+    
+}
+.left .title {
+    font-size:48px;
+    
+}
+.left .content{
+    font-size:24px;
+}
+.left .end {
+    font-size:12px;
+}
+/* right content */
+.right {
+    width:350px;
+    font-size: 18px;
+}
+.right .bank_list {
+    width:350px;
+    height:50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow:
+        0 30px 60px 12px rgba(0, 0, 33, 0.05),
+        0 4px 24px 0 rgba(0, 0, 33, 0.05),
+        0 0 1px 0 rgba(0, 0, 33, 0.09);
+    margin: 10px 10px;
+    border-radius: 5px;
+}
+.right .bank_list .bank{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    width:18px;
+    height: 18px;
+    padding:18px
+}
+.money{
+    padding:18px;
+}
